@@ -2,49 +2,124 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="linktree"content="width=device-width">
-    <link rel="stylesheet" href="/stylesheet.css">
+    <style>
+      body {
+        padding-top: 40px;
+       padding-bottom: 40px;
+      }
+    </style>
+    <style>
+      .profile-pic {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+    </style>
+    <style>
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+    </style>
+    <style>
+      body {
+        background-color: #fffffe;
+      }
+      .name {
+        color: #094067;
+        display: flex;
+        justify-content: center;
+      }
+      .socials {
+        color: #094067;
+        display: flex;
+        justify-content: space-around;
+      }
+      .profile {
+        display: flex;
+        justify-content: center;
+      }
+      .links {
+        background-color: #3da9fc;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .links a {
+        color: #fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+    </style>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+    </style>
+    <style>
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <div class="profile">
-      <img src="natalie-chaney-KQVX1_pYpsA-unsplash.jpg" alt="San Francisco photo">
+    <div class="items">
+      <div class="profile">
+        <img src="natalie-chaney-KQVX1_pYpsA-unsplash.jpg" alt="San Francisco photo" class="profile-pic">
+      </div>
+      <div class="name">
+        Nico Weinstock
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/nico-weinstock-279997204/">
+          Linkedin
+        </a> 
+        <a href="https://github.com/nweinstock9">
+          Github
+        </a> 
+      </div>
+      <div class="links">
+        <img src="https://cosmonaut.blog/wp-content/uploads/2021/03/cyberattack_ypt08Pt.2e16d0ba.fill-768x432-1.jpg" class="thumbnail">
+        <a target="_blank" href="https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf">
+          The Medium is the Message - Marshall McCluhan
+        </a>
+      </div>
+      <div class="links">
+        <img src="https://play-lh.googleusercontent.com/6Jaqkn0Ok9ycbZ0TdDTZ9OAaNfQ3v0J8ftP4QQG-MHnUGIej7-5nLBFTREa0i9EgjHM=w240-h480-rw" class="thumbnail">
+        <a target="_blank" href="https://www.espn.com/nfl/">
+          ESPN NFL News
+        </a>
+      </div>
+      <div class="links">
+        <img src="https://avatars.githubusercontent.com/u/221409?s=280&v=4" class="thumbnail">
+        <a target="_blank" href="https://www.nytimes.com/crosswords">
+          The New York Times Games
+        </a>
+      </div>
+      <div class="links">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg" class="thumbnail">
+        <a target="_blank" href="https://www.chess.com">
+          Chess.com
+        </a>
+      </div>
     </div>
-    <div class="name">
-      Nico Weinstock
-    </div>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/nico-weinstock-279997204/">
-        Linkedin
-      </a> 
-      <a href="https://github.com/nweinstock9">
-        Github
-      </a> 
-    </div>
-    <div class="links">
-      <img src="https://cosmonaut.blog/wp-content/uploads/2021/03/cyberattack_ypt08Pt.2e16d0ba.fill-768x432-1.jpg">
-      <a href="https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf">
-        The Medium is the Message - Marshall McCluhan
-      </a>
-    </div>
-    <div class="links">
-      <img src="https://play-lh.googleusercontent.com/6Jaqkn0Ok9ycbZ0TdDTZ9OAaNfQ3v0J8ftP4QQG-MHnUGIej7-5nLBFTREa0i9EgjHM=w240-h480-rw">
-      <a href="https://www.espn.com/nfl/">
-        ESPN NFL News
-      </a>
-    </div>
-    <div class="links">
-      <img src="https://avatars.githubusercontent.com/u/221409?s=280&v=4">
-      <a href="https://www.nytimes.com/crosswords">
-        The New York Times Games
-      </a>
-    </div>
-    <div class="links">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg">
-      <a href="https://www.chess.com">
-        Chess.com
-      </a>
-    </div>
+
 
 
 
